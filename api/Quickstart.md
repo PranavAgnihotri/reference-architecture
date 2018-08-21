@@ -9,18 +9,18 @@ As well, a top-level note that will help throughout this process is that if your
 
 0.	[Setup Homebrew (Note: highly recommended)](#step-0)
 1.	[Corporate Proxy Detection and Authorizing and Adding SSH Keys](#step-1)
-1.	[Install Node and NPM](#step-2)
-2.	[Install Yarn](#step-3)
-3.	[Install Vault CLI](#step-4)
-4.	[Install OpenShift CLI](#step-5)
-5.	[Install Docker](#step-6)
-6.	[Install Shippy](#step-7)
+2.	[Install Node and NPM](#step-2)
+3.	[Install Yarn](#step-3)
+4.	[Install Vault CLI](#step-4)
+5.	[Install OpenShift CLI](#step-5)
+6.	[Install Docker](#step-6)
+7.	[Install Shippy](#step-7)
  
 **API construction**
-1.	[Clone TELUS API starter kit GitHub repository](#step-8)
-2.	[Run Authorization Proxy Locally](#step-9)
-3.	[Put together an API](#step-10)
-4.	[Deploying the API](#step-11)
+8.	[Clone TELUS API starter kit GitHub repository](#step-8)
+9.	[Run Authorization Proxy Locally](#step-9)
+10.	[Put together an API](#step-10)
+11.	[Deploying the API](#step-11)
 
 
 
