@@ -8,19 +8,19 @@ As well, a top-level note that will help throughout this process is that if your
 **Device setup**
 
 0.	[Setup Homebrew (Note: highly recommended)](#step-0)
-1.	[Corporate Proxy Detection and Authorizing and Adding SSH Keys](#step1)
-1.	[Install Node and NPM](#step2)
-2.	[Install Yarn](#step3)
-3.	[Install Vault CLI](#step4)
-4.	[Install OpenShift CLI](#step5)
-5.	[Install Docker](#step6)
-6.	[Install Shippy](#step7)
+1.	[Corporate Proxy Detection and Authorizing and Adding SSH Keys](#step-1)
+1.	[Install Node and NPM](#step-2)
+2.	[Install Yarn](#step-3)
+3.	[Install Vault CLI](#step-4)
+4.	[Install OpenShift CLI](#step-5)
+5.	[Install Docker](#step-6)
+6.	[Install Shippy](#step-7)
  
 **API construction**
-1.	[Clone TELUS API starter kit GitHub repository](#step8)
-2.	[Run Authorization Proxy Locally](#step9)
-3.	[Put together an API](#step10)
-4.	[Deploying the API](#step11)
+1.	[Clone TELUS API starter kit GitHub repository](#step-8)
+2.	[Run Authorization Proxy Locally](#step-9)
+3.	[Put together an API](#step-10)
+4.	[Deploying the API](#step-11)
 
 
 
@@ -296,7 +296,7 @@ At the end, to confirm installation, issue the command:
 If you’re met with a list of instructional Shippy commands, you’re good to go.
 
 # *API Construction*
-### Step 1 
+### Step 8 
 To clone the starter-kit repository, type the following into Terminal:
 ```git clone git@github.com:telus/api-starter-kit.git```
 If this works, proceed with the following:
@@ -388,7 +388,7 @@ warning " > express-winston@2.5.1" has unmet peer dependency "winston@>=1.x".
 Shippy will require you to enter your GitHub username and GitHub password (not your Token this time) as well as an authentication code that will be sent out through text. Once this has been done, you have successfully cloned the repository and are ready to move on.
 
 
-### Step 2 
+### Step 9 
 
 Authorization Proxy (AuthProxy) is a TELUS digital tool for managing API security. Before trying to create an API, we need to first run AuthProxy locally to stub our security infrastructure.
 
@@ -461,7 +461,7 @@ You should see success in the form of:
 
 Contragulations, you have Authorization Proxy up and running, and can move on.
 
-### Step 3 
+### Step 10 
 
 For this step, you will need **to open a new tab in Terminal**, so that you can continue the rest of the process to build your API, while leaving Authorization Proxy running locally.
 
@@ -546,7 +546,7 @@ This is a sign of success.
  
 
 
-### Step 4 
+### Step 11 
 
 In order to deploy this API, **open yet another Terminal tab**. If you want to test the API, you can run the following commands:
 ```docker-compose run api test ```
