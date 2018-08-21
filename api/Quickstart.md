@@ -7,7 +7,7 @@ As well, a top-level note that will help throughout this process is that if your
 
 **Device setup**
 
-0.	[Setup Homebrew (Note: highly recommended)](#step0)
+0.	[Setup Homebrew (Note: highly recommended)](#step-0)
 1.	[Corporate Proxy Detection and Authorizing and Adding SSH Keys](#step1)
 1.	[Install Node and NPM](#step2)
 2.	[Install Yarn](#step3)
