@@ -19,11 +19,8 @@ As well, a top-level note that will help throughout this process is that if your
 **API construction**
 
 8.	[Clone TELUS API starter kit GitHub repository](#step-8)
-
 9.	[Run Authorization Proxy Locally](#step-9)
-
 10.	[Put together an API](#step-10)
-
 11.	[Deploying the API](#step-11)
 
 
