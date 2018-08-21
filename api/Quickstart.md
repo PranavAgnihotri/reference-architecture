@@ -25,7 +25,7 @@ As well, a top-level note that will help throughout this process is that if your
 
 
 # *Device setup*
-### Step 0
+### Step 0 {#step0}
 For MacOS, the installation of such applications is significantly eased through the use of Homebrew. It is highly recommended that unless you are comfortable with installing software independently, to setup Homebrew. The rest of this guide’s installation guide will function under the assumption of Homebrew usage. The steps are outlined below:
 
   *	Open Terminal
